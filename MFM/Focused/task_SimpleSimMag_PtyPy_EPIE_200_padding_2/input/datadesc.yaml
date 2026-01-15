@@ -1,0 +1,21 @@
+metadata:
+  name: "Simple Simulation from Mag Image"
+  datetime: "2024-05-22T10:40:00"
+  comment: ""
+  voltage: 80
+  semiconv: 20.0e-3
+  semiconv_pix: 12.26
+  # diff to scan rotation
+  # suppose the scan rotation you read from instrument is A
+  # if the objective lens is on, there is an angle of B = -90
+  #                       is off, there is an angle of B = 20
+  # the rotation you should input here is (A+B)
+  rotation: 0
+  stepsize: 1 angstrom
+  psize: 5.5e-5
+  height: 71
+  width: 71
+format: bin
+data_filename: ./SimpleSim.bin
+data_dtype: f4
+data_shape: [-1, 128, 128]

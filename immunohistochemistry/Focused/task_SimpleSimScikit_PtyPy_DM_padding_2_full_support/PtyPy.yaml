@@ -1,0 +1,21 @@
+frames_per_block: 1024
+io:
+  autosave:
+    active: true
+    interval: 10
+scans:
+  scan_00:
+    name: "BlockFull"
+    data:
+      electron_data: true
+      padding: [64, 64, 64, 64]
+engines:
+  engine00:
+    name: "DM_pycuda"
+    numiter: 100
+    numiter_contiguous: 10
+    alpha: 0.7
+    probe_update_start: 5
+    probe_support: null
+    probe_fourier_support: null
+    record_local_error: false

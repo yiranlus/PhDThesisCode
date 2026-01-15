@@ -1,0 +1,39 @@
+metadata:
+  name: "Simple Simulation from Mag Image Smaller Aperture"
+  datetime: "2024-07-01T10:40:00"
+  comment: ""
+  voltage: 80
+  semiconv: 5.0e-3
+  semiconv_pix: 3.065342509667766
+  # diff to scan rotation
+  # suppose the scan rotation you read from instrument is A
+  # if the objective lens is on, there is an angle of B = -90
+  #                       is off, there is an angle of B = 20
+  # the rotation you should input here is (A+B)
+  rotation: 0
+  stepsize: 1 angstrom
+  psize: 5.5e-5
+  height: 71
+  width: 71
+format: bin
+data_filename: ./SimpleSim.bin
+data_dtype: f4
+data_shape: [-1, 128, 128]
+# abtem-hdf5
+#data_filename:
+#data_path:
+# MIB files
+#data_dir:
+#filename_base:
+#data_dsize: # 1 for 6bit, 2 for 12bit
+#n_flyback:
+# NPY
+#data_filename:
+# NPZ
+#data_filename:
+#data_path
+# Zipped MIB
+#data_zip:
+#data_path:
+#filename_base:
+#data_dsize:

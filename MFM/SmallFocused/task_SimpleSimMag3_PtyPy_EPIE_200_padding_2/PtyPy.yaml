@@ -1,0 +1,23 @@
+frames_per_block: 1024
+io:
+  autosave:
+    active: true
+    interval: 50
+scans:
+  scan_00:
+    name: "BlockFull"
+    data:
+      electron_data: true
+      padding: [64, 64, 64, 64]
+engines:
+  engine00:
+    name: "EPIE_pycuda"
+    numiter: 200
+    probe_center_tol: null
+    probe_support: null
+    compute_log_likelihood: true
+    object_norm_is_global: true
+    alpha: 1
+    beta: 1
+    probe_update_start: 2
+

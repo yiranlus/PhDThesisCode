@@ -1,0 +1,12 @@
+[ePIE]
+force_aperture_mask = false
+diff_cutoff_radius_fraction = 1.0
+diff_intensity_lower_cutoff = 0
+diff_origin_shift = 0
+diff_padding_factor = 1
+diff_stride = 1
+n_iteration_frozen_probe = 5
+n_iteration_target = 100
+scan_stride = 1
+alpha = 0.7
+beta = 0.7
